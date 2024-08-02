@@ -938,6 +938,7 @@
         .about .about-content .education,
         .about .about-content .experience,
         .about .about-content .personal-info,
+        .home .container .portfolio-item,
         .about .about-content .skills{
             flex: 0 0 100%;
             max-width: 100%;
@@ -947,7 +948,18 @@
         }
         .home .container .flex-row .skills{
             flex: 0 0 60%;
-            max-width: 60%;
+            max-width: 55%;
+        }
+        .home .home-info .btn{
+            max-width: 50%;
+        }
+
+        .home .container .btn{
+            max-width: 50%;
+        }
+        .home .container .skills-set{
+            margin-top: 20px;
+            text-decoration: underline;
         }
     }
 
