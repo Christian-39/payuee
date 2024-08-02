@@ -121,6 +121,15 @@ document.querySelector(".portfolio-me1").addEventListener("click", function () {
     
 })
 
+document.querySelector(".service-me").addEventListener("click", function () {
+    const sectionIndex = this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSections(sectionIndex);
+    
+})
+
 
 const navTogglerBtn = document.querySelector(".nav-toggler"),
     aside = document.querySelector(".aside");
@@ -210,6 +219,24 @@ document.querySelector(".about-me4").addEventListener("click", function () {
 })
 
 document.querySelector(".portfolio-me4").addEventListener("click", function () {
+    const sectionIndex = this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSections(sectionIndex);
+    
+})
+
+document.querySelector(".about-me5").addEventListener("click", function () {
+    const sectionIndex = this.getAttribute("data-section-index");
+    showSection(this);
+    updateNav(this);
+    removeBackSection();
+    addBackSections(sectionIndex);
+    
+})
+
+document.querySelector(".portfolio-me5").addEventListener("click", function () {
     const sectionIndex = this.getAttribute("data-section-index");
     showSection(this);
     updateNav(this);
