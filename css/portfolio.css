@@ -202,11 +202,15 @@
 
     .aside .logo a {
         position: relative;
+        align-items: center;
+        justify-content: center;
     }
 
     .aside .logo a img {
         max-width: 30%;
         max-height: 30%;
+        align-items: center;
+        justify-content: center;
         margin-left: 90px;
     }
 
@@ -936,6 +940,10 @@
         .home .home-img {
             margin-top: 10px;
         }
+        .aside .logo a img {
+            max-width: 30%;
+            max-height: 30%;
+        }
     }
 
     @media (max-width:767px) {
@@ -971,7 +979,6 @@
             text-decoration: underline;
         }
         .aside .logo a img {
-            margin-bottom: 2px;
             max-width: 30%;
             max-height: 30%;
         }
