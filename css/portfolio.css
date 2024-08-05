@@ -1422,3 +1422,18 @@
         text-decoration: none;
         cursor: pointer;
     } 
+
+    .cta {
+        background-color: var(--bg-black-100);
+        color: #fff;
+        padding: 40px 20px;
+        margin-top: 10px;
+    }
+    .cta a {
+        display: inline-block;
+        padding: 15px 30px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
